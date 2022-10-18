@@ -1,0 +1,27 @@
+{
+    "name": "yatshub/yii2-google-cloud-error-reporting",
+    "description": "Google cloud error reporting real-time exception monitoring and alerting for Yii2",
+    "keywords": ["yii2", "extension", "google", "google cloud", "error reporting", "target"],
+    "license": "MIT",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Oleksandr Yatsenko",
+            "email": "yats.com.ua@gmail.com",
+            "homepage": "https://yats.com.ua"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"GoogleErrorReporting\\": "src/"}
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "google/cloud-error-reporting": "^0.18.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
